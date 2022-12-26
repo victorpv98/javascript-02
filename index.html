@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 02</title>
+  </head>
+  <body>
+    <h1>Calculadora de compras de juguetes</h1>
+
+    <label for="cantidad-monopolio">Cantidad de Monopolio:</label><br />
+    <input type="number" id="cantidad-monopolio" /><br />
+    <label for="cantidad-ajedrez">Cantidad de Ajedrez:</label><br />
+    <input type="number" id="cantidad-ajedrez" /><br />
+    <label for="cantidad-lego">Cantidad de Lego:</label><br />
+    <input type="number" id="cantidad-lego" /><br />
+    <label for="cantidad-dama">Cantidad de Dama:</label><br />
+    <input type="number" id="cantidad-dama" /><br />
+    <label for="cantidad-laberinto">Cantidad de Laberinto:</label><br />
+    <input type="number" id="cantidad-laberinto" /><br />
+
+    <button onclick="calcularPrecio()">Calcular</button>
+
+    <h2>Resultados</h2>
+
+    <p>Importe de compra: <span id="importe-compra"></span></p>     
+    <p>Importe de descuento: <span id="importe-descuento"></span></p>     
+    <p>Importe a pagar: <span id="importe-pagar"></span></p>     
+    <script src="js/script01.js"></script>
+  </body>
+</html>
